@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Etini Akpayang | Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
 
@@ -14,6 +15,7 @@
       <h1 class="text-2xl font-bold text-indigo-600">Etini Akpayang</h1>
       <nav class="space-x-6">
         <a href="#about" class="hover:text-indigo-500">About</a>
+        <a href="#skills" class="hover:text-indigo-500">Skills</a>
         <a href="#projects" class="hover:text-indigo-500">Projects</a>
         <a href="#contact" class="hover:text-indigo-500">Contact</a>
       </nav>
@@ -30,6 +32,11 @@
       <a href="#projects" class="bg-indigo-600 text-white px-6 py-3 rounded-lg shadow hover:bg-indigo-700">View My Work</a>
       <a href="#contact" class="border border-indigo-600 text-indigo-600 px-6 py-3 rounded-lg shadow hover:bg-indigo-50">Contact Me</a>
     </div>
+    <div class="mt-6 space-x-4 text-2xl">
+      <a href="https://github.com/prince-akpayang" target="_blank" class="text-gray-600 hover:text-indigo-600"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/etini-akpayang" target="_blank" class="text-gray-600 hover:text-indigo-600"><i class="fab fa-linkedin"></i></a>
+      <a href="https://twitter.com/" target="_blank" class="text-gray-600 hover:text-indigo-600"><i class="fab fa-twitter"></i></a>
+    </div>
   </section>
 
   <!-- About Section -->
@@ -43,29 +50,66 @@
     </div>
   </section>
 
-  <!-- Placeholder Projects Section -->
-  <section id="projects" class="py-20 bg-gray-100">
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-semibold mb-12">Skills</h3>
+      <div class="grid md:grid-cols-4 gap-8 text-center">
+        <div>
+          <i class="fas fa-chart-line text-indigo-600 text-4xl mb-4"></i>
+          <p class="font-semibold">Data Analysis</p>
+        </div>
+        <div>
+          <i class="fas fa-laptop-code text-indigo-600 text-4xl mb-4"></i>
+          <p class="font-semibold">Programming (R, Python)</p>
+        </div>
+        <div>
+          <i class="fas fa-chalkboard-teacher text-indigo-600 text-4xl mb-4"></i>
+          <p class="font-semibold">Teaching & Training</p>
+        </div>
+        <div>
+          <i class="fas fa-lightbulb text-indigo-600 text-4xl mb-4"></i>
+          <p class="font-semibold">Educational Technology</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-white">
     <div class="max-w-6xl mx-auto px-6">
       <h3 class="text-3xl font-semibold text-center mb-12">Projects</h3>
       <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-white shadow-md rounded-lg p-6">
-          <h4 class="font-bold text-xl mb-2">Project One</h4>
-          <p class="text-gray-600">Brief description of the project and its impact.</p>
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="https://via.placeholder.com/400x200" alt="Project 1" class="w-full">
+          <div class="p-6">
+            <h4 class="font-bold text-xl mb-2">Project One</h4>
+            <p class="text-gray-600 mb-4">Brief description of the project and its impact.</p>
+            <a href="#" class="text-indigo-600 hover:underline">View Project →</a>
+          </div>
         </div>
-        <div class="bg-white shadow-md rounded-lg p-6">
-          <h4 class="font-bold text-xl mb-2">Project Two</h4>
-          <p class="text-gray-600">Brief description of the project and its impact.</p>
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="https://via.placeholder.com/400x200" alt="Project 2" class="w-full">
+          <div class="p-6">
+            <h4 class="font-bold text-xl mb-2">Project Two</h4>
+            <p class="text-gray-600 mb-4">Brief description of the project and its impact.</p>
+            <a href="#" class="text-indigo-600 hover:underline">View Project →</a>
+          </div>
         </div>
-        <div class="bg-white shadow-md rounded-lg p-6">
-          <h4 class="font-bold text-xl mb-2">Project Three</h4>
-          <p class="text-gray-600">Brief description of the project and its impact.</p>
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="https://via.placeholder.com/400x200" alt="Project 3" class="w-full">
+          <div class="p-6">
+            <h4 class="font-bold text-xl mb-2">Project Three</h4>
+            <p class="text-gray-600 mb-4">Brief description of the project and its impact.</p>
+            <a href="#" class="text-indigo-600 hover:underline">View Project →</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="py-20 bg-white">
+  <section id="contact" class="py-20 bg-gray-100">
     <div class="max-w-4xl mx-auto px-6 text-center">
       <h3 class="text-3xl font-semibold mb-6">Get In Touch</h3>
       <p class="text-gray-600 mb-4">Feel free to reach out via email or connect with me on LinkedIn.</p>
