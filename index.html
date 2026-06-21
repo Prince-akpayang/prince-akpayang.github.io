@@ -25,12 +25,12 @@
     </div>
   </header>
 
-  <!-- Hero Section -->
+  <!-- Hero Section - UPDATED TAGLINE -->
   <section class="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-20">
     <img src="assets/profile.png" alt="Etini Akpayang" class="w-32 h-32 rounded-full shadow-lg mb-4">
     <h2 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm <span class="text-indigo-600">Etini Akpayang</span></h2>
-    <p class="text-lg md:text-xl text-gray-600 max-w-2xl mb-6">
-      Statistician | Data & MEAL Specialist | Analytics Leader — driving impact through data intelligence and strategic evaluation.
+    <p class="text-lg md:text-xl text-gray-600 max-w-3xl mb-6">
+      Data Scientist | Statistician | MEAL & Impact Analytics Specialist — applying statistical modeling, machine learning, and data intelligence to solve real world problems and drive evidence based decisions.
     </p>
     <div class="space-x-4 mb-4">
       <a href="#projects" class="bg-indigo-600 text-white px-6 py-3 rounded-lg shadow hover:bg-indigo-700">View My Work</a>
@@ -241,361 +241,403 @@
 </section>
 
 
- <!-- Projects Section (Updated with all fixes) -->
+ <!-- Projects Section - GROUPED INTO 4 SECTIONS -->
 <section id="projects" class="py-20 bg-white">
   <div class="max-w-6xl mx-auto px-6">
-    <h3 class="text-3xl font-semibold text-center mb-12">Projects</h3>
-    <div class="grid md:grid-cols-3 gap-8">
+    <h3 class="text-3xl font-semibold text-center mb-4">Projects</h3>
+    <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto">A selection of my work across data science, analytics, research, and community impact.</p>
 
-      <!-- Project 1: Handwashing Discovery -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/handwash analysis.png" alt="Handwashing Discovery Analysis" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
-            <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">ggplot2</span>
-            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">EDA</span>
-          </div>
-          <h4 class="font-bold text-xl mb-2">Discovery of Handwashing</h4>
-          <p class="text-gray-600 mb-4">Exploratory analysis of historical medical data uncovering how hygiene practices reduced mortality rates.</p>
-          <a href="https://app.datacamp.com/workspace/w/0b1b9534-f77c-43f6-9323-5ac560341302/edit" target="_blank" class="text-indigo-600 hover:underline">View Project →</a>
-        </div>
+    <!-- ============================================================ -->
+    <!-- SECTION 1: DATA SCIENCE & MACHINE LEARNING -->
+    <!-- ============================================================ -->
+    <div class="mb-16">
+      <div class="flex items-center gap-3 mb-6">
+        <span class="text-3xl">🤖</span>
+        <h4 class="text-2xl font-semibold text-indigo-700">Data Science & Machine Learning</h4>
+        <div class="flex-1 h-px bg-gray-200 ml-4"></div>
       </div>
+      <div class="grid md:grid-cols-3 gap-8">
 
-      <!-- Project 2: COVID-19 Global Trends -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/pandemic analysis.png" alt="COVID-19 Visualization" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
-            <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">ggplot2</span>
-            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Visualization</span>
+        <!-- Student Dropout Risk -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/dropout-risk.jpeg" alt="Predicting Student Dropout Risk" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
+              <span class="inline-block bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded">Shiny</span>
+              <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">XGBoost</span>
+              <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Machine Learning</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">Predicting Student Dropout Risk</h4>
+            <p class="text-gray-600 mb-4">Machine learning model built in R to estimate the likelihood of school dropout based on socio-economic, attendance, and performance data. Aims to help schools take early intervention steps to reduce dropout rates.</p>
+            <a href="https://sloneo-etini-akpayang.shinyapps.io/Student_Dropout_Risk_Predictor/" target="_blank" class="text-indigo-600 hover:underline">View ShinyApp →</a>
           </div>
-          <h4 class="font-bold text-xl mb-2">COVID-19 Global Trends</h4>
-          <p class="text-gray-600 mb-4">Interactive visualizations analyzing global spread patterns and country-level impacts.</p>
-          <a href="https://app.datacamp.com/workspace/w/0434d327-6d31-43ac-b422-bf154797b0b1/edit" target="_blank" class="text-indigo-600 hover:underline">View Project →</a>
         </div>
-      </div>
 
-      <!-- Project 3: Bayesian Educational Data Analysis -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/masters research.PNG" alt="Masters Thesis" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
-            <span class="inline-block bg-red-100 text-red-800 text-xs font-semibold px-2 py-1 rounded">Bayesian</span>
-            <span class="inline-block bg-yellow-100 text-yellow-800 text-xs font-semibold px-2 py-1 rounded">Statistics</span>
+        <!-- Product Segmentation -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/product-analytics.jpeg" alt="Product Analytics" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
+              <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">Clustering</span>
+              <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Machine Learning</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">Product User Segmentation Analysis</h4>
+            <p class="text-gray-600 mb-4">Data-driven user clustering to support targeted outreach and lookalike audience creation.</p>
+            <a href="https://drive.google.com/drive/folders/14tOnywNmR84Q7sG7YOZst7EtEkJEErvK?usp=drive_link" target="_blank" class="text-indigo-600 hover:underline">View Analysis →</a>
           </div>
-          <h4 class="font-bold text-xl mb-2">Bayesian Educational Data Analysis</h4>
-          <p class="text-gray-600 mb-4">Graduate research applying Bayesian methods to educational performance data.</p>
-          <a href="assets/MScThesis.pdf" target="_blank" class="text-indigo-600 hover:underline">Read Thesis →</a>
         </div>
-      </div>
 
-      <!-- Project 4: Nonparametric Bayesian Comparison -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/statReport.png" alt="Bayesian Statistical Report" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
-            <span class="inline-block bg-red-100 text-red-800 text-xs font-semibold px-2 py-1 rounded">JAGS</span>
-            <span class="inline-block bg-yellow-100 text-yellow-800 text-xs font-semibold px-2 py-1 rounded">Bayesian</span>
+        <!-- Movie Recommendation -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/stage1.jpeg" alt="MovieLens Analysis" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
+              <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">Feature Engineering</span>
+              <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Recommender</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">Movie Recommendation Feature Engineering</h4>
+            <p class="text-gray-600 mb-4">Feature engineering and exploratory analysis on large-scale movie rating data.</p>
+            <a href="https://drive.google.com/drive/folders/1u8fAXqZTyriW4KrNAM6_8WIkXJinem1a?usp=sharing" target="_blank" class="text-indigo-600 hover:underline">View Project →</a>
           </div>
-          <h4 class="font-bold text-xl mb-2">Nonparametric Bayesian Comparison</h4>
-          <p class="text-gray-600 mb-4">Comparative evaluation of three nonparametric Bayesian techniques with practical insights.</p>
-          <a href="https://github.com/Prince-akpayang/Comparison-of-three-common-nonparametric-Bayes-techniques-" target="_blank" class="text-indigo-600 hover:underline">View Report →</a>
         </div>
-      </div>
 
-      <!-- Project 5: Learner Performance Dashboard -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/Analytics dashboard.PNG" alt="Learner Analytics Dashboard" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
-            <span class="inline-block bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded">Shiny</span>
-            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Dashboard</span>
+        <!-- Actuarial Claim Modeling -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/actuarial.PNG" alt="Actuarial Claim Cost Modeling" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
+              <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">XGBoost</span>
+              <span class="inline-block bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded">Tweedie GLM</span>
+              <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Ensemble</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">Actuarial Claim Cost Modeling</h4>
+            <p class="text-gray-600 mb-4">Comparative study of Linear Regression, Two‑Part, Tweedie GLM, and XGBoost with Tweedie loss on zero‑inflated insurance claim data. Achieved 2.21% RMSE improvement.</p>
+            <a href="https://rpubs.com/prince_E/1443137" target="_blank" class="text-indigo-600 hover:underline block">View Project (RPubs) →</a>
           </div>
-          <h4 class="font-bold text-xl mb-2">Learner Performance Dashboard</h4>
-          <p class="text-gray-600 mb-4">R Shiny dashboard delivering real-time insights into learner engagement and outcomes.</p>
-          <a href="https://sloneo-etini-akpayang.shinyapps.io/TFN_FELLOWS_STATPAD/" target="_blank" class="text-indigo-600 hover:underline">View Dashboard →</a>
         </div>
-      </div>
 
-      <!-- Project 6: WhatsApp Chat Analytics -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/whatsanals.PNG" alt="Whatsapp Chat Analysis" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
-            <span class="inline-block bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded">Shiny</span>
-            <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">NLP</span>
+        <!-- Mental Health Sentiment -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/SENTI.png" alt="Mental Health Sentiment Tracker Dashboard" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">Python</span>
+              <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">BERT</span>
+              <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">NLP</span>
+              <span class="inline-block bg-red-100 text-red-800 text-xs font-semibold px-2 py-1 rounded">Power BI</span>
+              <span class="inline-block bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded">Transformers</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">Real-Time Mental Health Sentiment Tracker</h4>
+            <p class="text-gray-600 mb-4">End-to-end NLP pipeline using BERT to classify mental health sentiment. Achieved 80.60% accuracy and detected 271 high-risk posts requiring intervention.</p>
+            <a href="https://colab.research.google.com/drive/1AW1nlAQ8iAFBGWoC9enkJGVL1DavDSJT#" target="_blank" class="text-indigo-600 hover:underline block">View Colab Notebook →</a>
           </div>
-          <h4 class="font-bold text-xl mb-2">WhatsApp Chat Analytics</h4>
-          <p class="text-gray-600 mb-4">Sentiment and interaction analysis of chat data using interactive visual analytics.</p>
-          <a href="https://sloneo-etini-akpayang.shinyapps.io/Whatapp_Chat_analyzer/" target="_blank" class="text-indigo-600 hover:underline">View App →</a>
         </div>
-      </div>
 
-      <!-- Project 7: Retail Sales Performance -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/stage0.jpeg" alt="Retail Sales Analysis" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-yellow-100 text-yellow-800 text-xs font-semibold px-2 py-1 rounded">Excel</span>
-            <span class="inline-block bg-red-100 text-red-800 text-xs font-semibold px-2 py-1 rounded">Power BI</span>
-            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Analytics</span>
+        <!-- Zero-Inflated Modeling -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/zero-inflated.png" alt="Zero-Inflated Modeling Project" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
+              <span class="inline-block bg-red-100 text-red-800 text-xs font-semibold px-2 py-1 rounded">JAGS</span>
+              <span class="inline-block bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded">glmmTMB</span>
+              <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Bayesian</span>
+              <span class="inline-block bg-yellow-100 text-yellow-800 text-xs font-semibold px-2 py-1 rounded">AIC</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">Zero‑Inflated Modeling: Poisson to Bayesian</h4>
+            <p class="text-gray-600 mb-4">Compares Poisson, NB, ZIP, ZINB, Hurdle, and Bayesian JAGS models on count data with excess zeros. Uses AIC and DIC to determine when structural zeros justify complexity.</p>
+            <a href="https://rpubs.com/prince_E/1339476" target="_blank" class="text-indigo-600 hover:underline block">View Project (RPubs) →</a>
           </div>
-          <h4 class="font-bold text-xl mb-2">Retail Sales Performance Analysis</h4>
-          <p class="text-gray-600 mb-4">Excel-based analysis evaluating how product and outlet characteristics influence revenue.</p>
-          <a href="https://drive.google.com/drive/folders/1Tw7cfSQFwJIfF_SpuGku0EbUdKqoy5zB?usp=drive_link" target="_blank" class="text-indigo-600 hover:underline">View Analysis →</a>
         </div>
-      </div>
 
-      <!-- Project 8: Movie Recommendation -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/stage1.jpeg" alt="MovieLens Analysis" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
-            <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">Feature Engineering</span>
-            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Recommender</span>
-          </div>
-          <h4 class="font-bold text-xl mb-2">Movie Recommendation Feature Engineering</h4>
-          <p class="text-gray-600 mb-4">Feature engineering and exploratory analysis on large-scale movie rating data.</p>
-          <a href="https://drive.google.com/drive/folders/1u8fAXqZTyriW4KrNAM6_8WIkXJinem1a?usp=sharing" target="_blank" class="text-indigo-600 hover:underline">View Project →</a>
-        </div>
       </div>
-
-      <!-- Project 9: Ride Share SQL Analysis -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/stage2a.jpeg" alt="Ride Share SQL Analysis" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-yellow-100 text-yellow-800 text-xs font-semibold px-2 py-1 rounded">SQL</span>
-            <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
-            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Business Analytics</span>
-          </div>
-          <h4 class="font-bold text-xl mb-2">Ride Share Business Analytics</h4>
-          <p class="text-gray-600 mb-4">SQL-driven analysis uncovering revenue trends, cancellations, and driver performance.</p>
-          <a href="https://drive.google.com/drive/folders/1U-80RFxkkZFT97wi9oDfULbja7z92DVG?usp=sharing" target="_blank" class="text-indigo-600 hover:underline">View Analysis →</a>
-        </div>
-      </div>
-
-      <!-- Project 10: Election Data Outlier Detection -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/stage2b.jpeg" alt="Election Analysis" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
-            <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">Geospatial</span>
-            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Statistics</span>
-          </div>
-          <h4 class="font-bold text-xl mb-2">Election Data Outlier Detection</h4>
-          <p class="text-gray-600 mb-4">Geospatial and statistical analysis to detect irregular voting patterns.</p>
-          <a href="https://drive.google.com/drive/folders/13HwX9jI3qRbNn8rig3-S4NY2iUjtgXqR?usp=sharing" target="_blank" class="text-indigo-600 hover:underline">View Project →</a>
-        </div>
-      </div>
-
-      <!-- Project 11: International Football Analytics -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/stage3a.PNG" alt="Football Dashboard" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-red-100 text-red-800 text-xs font-semibold px-2 py-1 rounded">Tableau</span>
-            <span class="inline-block bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded">Dashboard</span>
-          </div>
-          <h4 class="font-bold text-xl mb-2">International Football Analytics</h4>
-          <p class="text-gray-600 mb-4">Interactive dashboard exploring 150+ years of international football trends.</p>
-          <a href="https://public.tableau.com/app/profile/etini.akpayang/viz/FIFAInteractiveDashboard/FIFAInteractiveDashboard?publish=yes" target="_blank" class="text-indigo-600 hover:underline">View Dashboard →</a>
-        </div>
-      </div>
-
-      <!-- Project 12: Banking SEO Analytics -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/stage3b.PNG" alt="SEO Analytics" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-red-100 text-red-800 text-xs font-semibold px-2 py-1 rounded">Tableau</span>
-            <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">SEO</span>
-            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Analytics</span>
-          </div>
-          <h4 class="font-bold text-xl mb-2">Banking SEO Analytics</h4>
-          <p class="text-gray-600 mb-4">Analysis of search visibility and digital presence of Nigerian banks.</p>
-          <a href="https://public.tableau.com/app/profile/etini.akpayang/viz/SEOandTrendInsightsonBankForeignTransferServices/SEOandTrendInsightsonBankForeignTransferServices?publish=yes" target="_blank" class="text-indigo-600 hover:underline">View Dashboard →</a>
-        </div>
-      </div>
-
-      <!-- Project 13: Palm Oil Investment Profitability -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/palm-oil.jpeg" alt="Palm Oil Profitability Analysis" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-yellow-100 text-yellow-800 text-xs font-semibold px-2 py-1 rounded">Excel</span>
-            <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">Financial Modeling</span>
-            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">ROI</span>
-          </div>
-          <h4 class="font-bold text-xl mb-2">Palm Oil Investment Profitability Model</h4>
-          <p class="text-gray-600 mb-4">End-to-end feasibility model estimating profitability, ROI, and scale requirements across Nigerian states.</p>
-          <a href="https://drive.google.com/file/d/1w8fAynalQqC3vR0ek5ykMYpByJcLcDcX/view" target="_blank" class="text-indigo-600 hover:underline">View Report →</a>
-        </div>
-      </div>
-
-      <!-- Project 14: Product User Segmentation -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/product-analytics.jpeg" alt="Product Analytics" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
-            <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">Clustering</span>
-            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Machine Learning</span>
-          </div>
-          <h4 class="font-bold text-xl mb-2">Product User Segmentation Analysis</h4>
-          <p class="text-gray-600 mb-4">Data-driven user clustering to support targeted outreach and lookalike audience creation.</p>
-          <a href="https://drive.google.com/drive/folders/14tOnywNmR84Q7sG7YOZst7EtEkJEErvK?usp=drive_link" target="_blank" class="text-indigo-600 hover:underline">View Analysis →</a>
-        </div>
-      </div>
-
-      <!-- Project 15: Ambiguous Time Series Data -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/ambiguous-data.jpeg" alt="Ambiguous Data Analysis" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
-            <span class="inline-block bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded">Time Series</span>
-            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Uncertainty</span>
-          </div>
-          <h4 class="font-bold text-xl mb-2">Interpreting Ambiguous Time Series Data</h4>
-          <p class="text-gray-600 mb-4">Advanced reasoning under uncertainty to construct and challenge competing data narratives.</p>
-          <a href="https://drive.google.com/file/d/1N4GsGF4q2vz8O2xI0_aV66LKE_-cyCFr/view" target="_blank" class="text-indigo-600 hover:underline">View Report →</a>
-        </div>
-      </div>
-
-      <!-- Project 16: Predicting Student Dropout Risk -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/dropout-risk.jpeg" alt="Predicting Student Dropout Risk" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
-            <span class="inline-block bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded">Shiny</span>
-            <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">XGBoost</span>
-            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Machine Learning</span>
-          </div>
-          <h4 class="font-bold text-xl mb-2">Predicting Student Dropout Risk</h4>
-          <p class="text-gray-600 mb-4">Machine learning model built in R to estimate the likelihood of school dropout based on socio-economic, attendance, and performance data. Aims to help schools take early intervention steps to reduce dropout rates.</p>
-          <a href="https://sloneo-etini-akpayang.shinyapps.io/Student_Dropout_Risk_Predictor/" target="_blank" class="text-indigo-600 hover:underline">View ShinyApp →</a>
-        </div>
-      </div>
-
-      <!-- Project 17: SDSN Good Health Outreach -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/sdsn-outreach.PNG" alt="SDSN Good Health and Well-being Outreach" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-pink-100 text-pink-800 text-xs font-semibold px-2 py-1 rounded">Community</span>
-            <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">SDG</span>
-            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Outreach</span>
-          </div>
-          <h4 class="font-bold text-xl mb-2">SDSN Good Health and Well-being Outreach</h4>
-          <p class="text-gray-600 mb-4">Organized interactive sessions, hygiene demonstrations, and physical activities to promote SDG 3 awareness among students at Alaye High School.</p>
-          <a href="https://www.linkedin.com/posts/etini-akpayang-754aa4101_sdsn-sdgs-sustainabledevelopment-activity-7217577729901129731-r-jh?utm_source=share&utm_medium=member_desktop&rcm=ACoAABn30TABv5_Fpd88K2sOa36rPviAos3hnUk" target="_blank" class="text-indigo-600 hover:underline">Project preview →</a>
-        </div>
-      </div>
-      
-      <!-- Project 18: EmpowerEd Teacher Training -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/empowered.PNG" alt="EmpowerEd Teacher Training" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-pink-100 text-pink-800 text-xs font-semibold px-2 py-1 rounded">Training</span>
-            <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">EdTech</span>
-            <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">Community</span>
-          </div>
-          <h4 class="font-bold text-xl mb-2">EmpowerEd Teacher Training</h4>
-          <p class="text-gray-600 mb-4">Trained teachers across Ogun State on integrating technology into classroom delivery, enabling more engaging and effective lessons.</p>
-          <a href="https://www.linkedin.com/posts/etini-akpayang-754aa4101_join-us-httpslnkdindkqg4qvs-activity-7225484087522689025-beYq?utm_source=share&utm_medium=member_desktop&rcm=ACoAABn30TABv5_Fpd88K2sOa36rPviAos3hnUk" target="_blank" class="text-indigo-600 hover:underline">Project preview →</a>
-        </div>
-      </div>
-      
-      <!-- Project 19: Grow Your Reader Global Exchange -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/grow-your-reader.PNG" alt="Grow Your Reader Global Exchange" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">Education</span>
-            <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">UNESCO</span>
-            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Global Exchange</span>
-          </div>
-          <h4 class="font-bold text-xl mb-2">Grow Your Reader Global Exchange</h4>
-          <p class="text-gray-600 mb-4">Worked with Grow Your Reader Foundation and Bangladesh National Commission for UNESCO to create global citizenship awareness among students.</p>
-          <a href="https://drive.google.com/drive/folders/1bvWxXslK0W787sy5EOz-8yuUtg1-9HJh?usp=sharing" target="_blank" class="text-indigo-600 hover:underline">Project preview →</a>
-        </div>
-      </div>
-
-      <!-- ============ PROJECT 20: MENTAL HEALTH SENTIMENT TRACKER ============ -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/SENTI.png" alt="Mental Health Sentiment Tracker Dashboard" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">Python</span>
-            <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">BERT</span>
-            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">NLP</span>
-            <span class="inline-block bg-red-100 text-red-800 text-xs font-semibold px-2 py-1 rounded">Power BI</span>
-            <span class="inline-block bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded">Transformers</span>
-          </div>
-          <h4 class="font-bold text-xl mb-2">Real-Time Mental Health Sentiment Tracker</h4>
-          <p class="text-gray-600 mb-4">
-            End-to-end NLP pipeline using <strong>BERT (Transformer)</strong> to classify mental health sentiment from Reddit/Twitter-style data. 
-            Achieved <strong>80.60% accuracy</strong> and detected <strong>271 high-risk posts</strong> requiring intervention. 
-            Features include real-time monitoring dashboards, word clouds, and an automated alert system for crisis signals.
-          </p>
-          <a href="https://colab.research.google.com/drive/1AW1nlAQ8iAFBGWoC9enkJGVL1DavDSJT#" target="_blank" class="text-indigo-600 hover:underline block">View Colab Notebook →</a>
-        </div>
-      </div>
-
-      <!-- ============ PROJECT 21: ACTUARIAL CLAIM MODELING ============ -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/actuarial.PNG" alt="Actuarial Claim Cost Modeling" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
-            <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">XGBoost</span>
-            <span class="inline-block bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded">Tweedie GLM</span>
-            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Ensemble</span>
-          </div>
-          <h4 class="font-bold text-xl mb-2">Actuarial Claim Cost Modeling</h4>
-          <p class="text-gray-600 mb-4">
-            A comparative study of four approaches for modeling zero‑inflated insurance claim costs: Linear Regression, 
-            Two‑Part (Logistic+Gamma), Tweedie GLM (actuarial gold standard), and <strong>XGBoost with Tweedie loss</strong>. 
-            Using simulated car insurance data with <strong>66% zeros</strong>, the ensemble achieved <strong>2.21% RMSE improvement</strong> 
-            over linear models. Feature importance reveals <strong>past claims and mileage</strong> as the strongest predictors – 
-            enabling fairer pricing and better loss ratios for insurers.
-          </p>
-          <a href="https://rpubs.com/prince_E/1443137" target="_blank" class="text-indigo-600 hover:underline block">View Project (RPubs) →</a>
-        </div>
-      </div>
-
-      <!-- ============ PROJECT 22: ZERO-INFLATED MODELING ============ -->
-      <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
-        <img src="assets/zero-inflated.png" alt="Zero-Inflated Modeling Project" class="w-full">
-        <div class="p-6">
-          <div class="flex flex-wrap gap-1 mt-2 mb-3">
-            <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
-            <span class="inline-block bg-red-100 text-red-800 text-xs font-semibold px-2 py-1 rounded">JAGS</span>
-            <span class="inline-block bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded">glmmTMB</span>
-            <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Bayesian</span>
-            <span class="inline-block bg-yellow-100 text-yellow-800 text-xs font-semibold px-2 py-1 rounded">AIC</span>
-          </div>
-          <h4 class="font-bold text-xl mb-2">Zero‑Inflated Modeling: Poisson to Bayesian</h4>
-          <p class="text-gray-600 mb-4">
-            A comprehensive walkthrough of modeling count data with excess zeros. Compares <strong>Poisson, Negative Binomial, ZIP, ZINB, Hurdle, and Bayesian JAGS</strong> models on simulated cargo shipments and real bioChemists data. 
-            Uses <strong>AIC and DIC</strong> to determine when structural zeros justify complexity – demonstrating that sometimes the simplest model wins. Includes practical notes on numerical stability and NaN issues.
-          </p>
-          <a href="https://rpubs.com/prince_E/1339476" target="_blank" class="text-indigo-600 hover:underline block">View Project (RPubs) →</a>
-        </div>
-      </div>
-
     </div>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 2: ANALYTICS & VISUALIZATION -->
+    <!-- ============================================================ -->
+    <div class="mb-16">
+      <div class="flex items-center gap-3 mb-6">
+        <span class="text-3xl">📊</span>
+        <h4 class="text-2xl font-semibold text-indigo-700">Analytics & Visualization</h4>
+        <div class="flex-1 h-px bg-gray-200 ml-4"></div>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <!-- Handwashing Discovery -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/handwash analysis.png" alt="Handwashing Discovery Analysis" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
+              <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">ggplot2</span>
+              <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">EDA</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">Discovery of Handwashing</h4>
+            <p class="text-gray-600 mb-4">Exploratory analysis of historical medical data uncovering how hygiene practices reduced mortality rates.</p>
+            <a href="https://app.datacamp.com/workspace/w/0b1b9534-f77c-43f6-9323-5ac560341302/edit" target="_blank" class="text-indigo-600 hover:underline">View Project →</a>
+          </div>
+        </div>
+
+        <!-- COVID-19 Global Trends -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/pandemic analysis.png" alt="COVID-19 Visualization" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
+              <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">ggplot2</span>
+              <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Visualization</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">COVID-19 Global Trends</h4>
+            <p class="text-gray-600 mb-4">Interactive visualizations analyzing global spread patterns and country-level impacts.</p>
+            <a href="https://app.datacamp.com/workspace/w/0434d327-6d31-43ac-b422-bf154797b0b1/edit" target="_blank" class="text-indigo-600 hover:underline">View Project →</a>
+          </div>
+        </div>
+
+        <!-- Learner Performance Dashboard -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/Analytics dashboard.PNG" alt="Learner Analytics Dashboard" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
+              <span class="inline-block bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded">Shiny</span>
+              <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Dashboard</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">Learner Performance Dashboard</h4>
+            <p class="text-gray-600 mb-4">R Shiny dashboard delivering real-time insights into learner engagement and outcomes.</p>
+            <a href="https://sloneo-etini-akpayang.shinyapps.io/TFN_FELLOWS_STATPAD/" target="_blank" class="text-indigo-600 hover:underline">View Dashboard →</a>
+          </div>
+        </div>
+
+        <!-- WhatsApp Chat Analytics -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/whatsanals.PNG" alt="Whatsapp Chat Analysis" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
+              <span class="inline-block bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded">Shiny</span>
+              <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">NLP</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">WhatsApp Chat Analytics</h4>
+            <p class="text-gray-600 mb-4">Sentiment and interaction analysis of chat data using interactive visual analytics.</p>
+            <a href="https://sloneo-etini-akpayang.shinyapps.io/Whatapp_Chat_analyzer/" target="_blank" class="text-indigo-600 hover:underline">View App →</a>
+          </div>
+        </div>
+
+        <!-- International Football Analytics -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/stage3a.PNG" alt="Football Dashboard" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-red-100 text-red-800 text-xs font-semibold px-2 py-1 rounded">Tableau</span>
+              <span class="inline-block bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded">Dashboard</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">International Football Analytics</h4>
+            <p class="text-gray-600 mb-4">Interactive dashboard exploring 150+ years of international football trends.</p>
+            <a href="https://public.tableau.com/app/profile/etini.akpayang/viz/FIFAInteractiveDashboard/FIFAInteractiveDashboard?publish=yes" target="_blank" class="text-indigo-600 hover:underline">View Dashboard →</a>
+          </div>
+        </div>
+
+        <!-- Banking SEO Analytics -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/stage3b.PNG" alt="SEO Analytics" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-red-100 text-red-800 text-xs font-semibold px-2 py-1 rounded">Tableau</span>
+              <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">SEO</span>
+              <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Analytics</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">Banking SEO Analytics</h4>
+            <p class="text-gray-600 mb-4">Analysis of search visibility and digital presence of Nigerian banks.</p>
+            <a href="https://public.tableau.com/app/profile/etini.akpayang/viz/SEOandTrendInsightsonBankForeignTransferServices/SEOandTrendInsightsonBankForeignTransferServices?publish=yes" target="_blank" class="text-indigo-600 hover:underline">View Dashboard →</a>
+          </div>
+        </div>
+
+        <!-- Ride Share SQL -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/stage2a.jpeg" alt="Ride Share SQL Analysis" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-yellow-100 text-yellow-800 text-xs font-semibold px-2 py-1 rounded">SQL</span>
+              <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
+              <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Business Analytics</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">Ride Share Business Analytics</h4>
+            <p class="text-gray-600 mb-4">SQL-driven analysis uncovering revenue trends, cancellations, and driver performance.</p>
+            <a href="https://drive.google.com/drive/folders/1U-80RFxkkZFT97wi9oDfULbja7z92DVG?usp=sharing" target="_blank" class="text-indigo-600 hover:underline">View Analysis →</a>
+          </div>
+        </div>
+
+        <!-- Retail Sales -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/stage0.jpeg" alt="Retail Sales Analysis" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-yellow-100 text-yellow-800 text-xs font-semibold px-2 py-1 rounded">Excel</span>
+              <span class="inline-block bg-red-100 text-red-800 text-xs font-semibold px-2 py-1 rounded">Power BI</span>
+              <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Analytics</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">Retail Sales Performance Analysis</h4>
+            <p class="text-gray-600 mb-4">Excel-based analysis evaluating how product and outlet characteristics influence revenue.</p>
+            <a href="https://drive.google.com/drive/folders/1Tw7cfSQFwJIfF_SpuGku0EbUdKqoy5zB?usp=drive_link" target="_blank" class="text-indigo-600 hover:underline">View Analysis →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 3: RESEARCH & STATISTICAL MODELING -->
+    <!-- ============================================================ -->
+    <div class="mb-16">
+      <div class="flex items-center gap-3 mb-6">
+        <span class="text-3xl">📐</span>
+        <h4 class="text-2xl font-semibold text-indigo-700">Research & Statistical Modeling</h4>
+        <div class="flex-1 h-px bg-gray-200 ml-4"></div>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <!-- Bayesian Educational Data Analysis -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/masters research.PNG" alt="Masters Thesis" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
+              <span class="inline-block bg-red-100 text-red-800 text-xs font-semibold px-2 py-1 rounded">Bayesian</span>
+              <span class="inline-block bg-yellow-100 text-yellow-800 text-xs font-semibold px-2 py-1 rounded">Statistics</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">Bayesian Educational Data Analysis</h4>
+            <p class="text-gray-600 mb-4">Graduate research applying Bayesian methods to educational performance data.</p>
+            <a href="assets/MScThesis.pdf" target="_blank" class="text-indigo-600 hover:underline">Read Thesis →</a>
+          </div>
+        </div>
+
+        <!-- Nonparametric Bayesian Comparison -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/statReport.png" alt="Bayesian Statistical Report" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
+              <span class="inline-block bg-red-100 text-red-800 text-xs font-semibold px-2 py-1 rounded">JAGS</span>
+              <span class="inline-block bg-yellow-100 text-yellow-800 text-xs font-semibold px-2 py-1 rounded">Bayesian</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">Nonparametric Bayesian Comparison</h4>
+            <p class="text-gray-600 mb-4">Comparative evaluation of three nonparametric Bayesian techniques with practical insights.</p>
+            <a href="https://github.com/Prince-akpayang/Comparison-of-three-common-nonparametric-Bayes-techniques-" target="_blank" class="text-indigo-600 hover:underline">View Report →</a>
+          </div>
+        </div>
+
+        <!-- Palm Oil Investment -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/palm-oil.jpeg" alt="Palm Oil Profitability Analysis" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-yellow-100 text-yellow-800 text-xs font-semibold px-2 py-1 rounded">Excel</span>
+              <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">Financial Modeling</span>
+              <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">ROI</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">Palm Oil Investment Profitability Model</h4>
+            <p class="text-gray-600 mb-4">End-to-end feasibility model estimating profitability, ROI, and scale requirements across Nigerian states.</p>
+            <a href="https://drive.google.com/file/d/1w8fAynalQqC3vR0ek5ykMYpByJcLcDcX/view" target="_blank" class="text-indigo-600 hover:underline">View Report →</a>
+          </div>
+        </div>
+
+        <!-- Ambiguous Time Series -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/ambiguous-data.jpeg" alt="Ambiguous Data Analysis" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
+              <span class="inline-block bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded">Time Series</span>
+              <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Uncertainty</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">Interpreting Ambiguous Time Series Data</h4>
+            <p class="text-gray-600 mb-4">Advanced reasoning under uncertainty to construct and challenge competing data narratives.</p>
+            <a href="https://drive.google.com/file/d/1N4GsGF4q2vz8O2xI0_aV66LKE_-cyCFr/view" target="_blank" class="text-indigo-600 hover:underline">View Report →</a>
+          </div>
+        </div>
+
+        <!-- Election Outlier Detection -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/stage2b.jpeg" alt="Election Analysis" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">R</span>
+              <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">Geospatial</span>
+              <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Statistics</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">Election Data Outlier Detection</h4>
+            <p class="text-gray-600 mb-4">Geospatial and statistical analysis to detect irregular voting patterns.</p>
+            <a href="https://drive.google.com/drive/folders/13HwX9jI3qRbNn8rig3-S4NY2iUjtgXqR?usp=sharing" target="_blank" class="text-indigo-600 hover:underline">View Project →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 4: MEAL & COMMUNITY IMPACT -->
+    <!-- ============================================================ -->
+    <div class="mb-0">
+      <div class="flex items-center gap-3 mb-6">
+        <span class="text-3xl">🌍</span>
+        <h4 class="text-2xl font-semibold text-indigo-700">MEAL & Community Impact</h4>
+        <div class="flex-1 h-px bg-gray-200 ml-4"></div>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <!-- SDSN Outreach -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/sdsn-outreach.PNG" alt="SDSN Good Health and Well-being Outreach" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-pink-100 text-pink-800 text-xs font-semibold px-2 py-1 rounded">Community</span>
+              <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">SDG</span>
+              <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Outreach</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">SDSN Good Health and Well-being Outreach</h4>
+            <p class="text-gray-600 mb-4">Organized interactive sessions, hygiene demonstrations, and physical activities to promote SDG 3 awareness among students at Alaye High School.</p>
+            <a href="https://www.linkedin.com/posts/etini-akpayang-754aa4101_sdsn-sdgs-sustainabledevelopment-activity-7217577729901129731-r-jh?utm_source=share&utm_medium=member_desktop&rcm=ACoAABn30TABv5_Fpd88K2sOa36rPviAos3hnUk" target="_blank" class="text-indigo-600 hover:underline">Project preview →</a>
+          </div>
+        </div>
+
+        <!-- EmpowerEd Teacher Training -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/empowered.PNG" alt="EmpowerEd Teacher Training" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-pink-100 text-pink-800 text-xs font-semibold px-2 py-1 rounded">Training</span>
+              <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">EdTech</span>
+              <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">Community</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">EmpowerEd Teacher Training</h4>
+            <p class="text-gray-600 mb-4">Trained teachers across Ogun State on integrating technology into classroom delivery, enabling more engaging and effective lessons.</p>
+            <a href="https://www.linkedin.com/posts/etini-akpayang-754aa4101_join-us-httpslnkdindkqg4qvs-activity-7225484087522689025-beYq?utm_source=share&utm_medium=member_desktop&rcm=ACoAABn30TABv5_Fpd88K2sOa36rPviAos3hnUk" target="_blank" class="text-indigo-600 hover:underline">Project preview →</a>
+          </div>
+        </div>
+
+        <!-- Grow Your Reader -->
+        <div class="bg-gray-100 shadow-md rounded-lg overflow-hidden hover:shadow-xl transition">
+          <img src="assets/grow-your-reader.PNG" alt="Grow Your Reader Global Exchange" class="w-full">
+          <div class="p-6">
+            <div class="flex flex-wrap gap-1 mt-2 mb-3">
+              <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded">Education</span>
+              <span class="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded">UNESCO</span>
+              <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded">Global Exchange</span>
+            </div>
+            <h4 class="font-bold text-xl mb-2">Grow Your Reader Global Exchange</h4>
+            <p class="text-gray-600 mb-4">Worked with Grow Your Reader Foundation and Bangladesh National Commission for UNESCO to create global citizenship awareness among students.</p>
+            <a href="https://drive.google.com/drive/folders/1bvWxXslK0W787sy5EOz-8yuUtg1-9HJh?usp=sharing" target="_blank" class="text-indigo-600 hover:underline">Project preview →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
   </div>
 </section>
 
